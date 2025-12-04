@@ -1,47 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tribute to Jalanie Diamcaling</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main id="main">
-      <h1 id="title">Jalanie</h1>
-      <p class="subtitle">A student, developer, and brother</p>
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f0f4f8, #e6ebef);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
 
-      <div id="img-div">
-        <img
-          id="image"
-          src="https://media.licdn.com/dms/image/v2/C5103AQH5rWmQtdwMEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1580461390671?e=1766620800&v=beta&t=7pJaZnketu__U2a43R8ffwoNnpP0zQkPNCLaZ1F1fIU"
-        />
-        <figcaption id="img-caption">
-          A person passionate about learning, growth, and helping others.
-        </figcaption>
-      </div>
+main {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-      <section id="tribute-info">
-        <h2>About Jalanie Dimacaling</h2>
-        <p>
-          He is a dedicated progerammer and creative person who enjoys exploring the world and technology.
-        </p>
+#main > p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+}
 
-        <p>
-          He loves experimenting with new ideas; from programming and app development to personal projects that make everyday life easier. Jalanie believes in finding new knowledge to create meaningful things in life.
-        </p>
+#title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
+}
 
-        <p>
-          To learn more about Ali’s work and projects, visit
-          <a
-            id="tribute-link"
-            href="https://jalaniedimacaling.com/"
-            target="_blank"
-          >
-            Jalanie's profile
-          </a>.
-        </p>
-      </section>
-    </main>
-  </body>
-</html>
+#img-div {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 0.8rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+#tribute-info {
+  text-align: justify;
+}
+
+#tribute-link {
+  color: #4a90e2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
